@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Semantic</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+      #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      #main {
+        float: left;
+        width: 69%;
+      }
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+      .clr{
+        clear: both;
+      }
+      #footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+    <body>
+      <header id="header" class="card">
+        <h1>My Website</h1>
+        <p>Just Another Website</p>
+      </header>
+
+      <main id="main">
+
+        <section id="welcome" class="card">
+          <h2>Welcome To Our Website</h2>
+          <p>
+            Ipsum illo ratione eaque consequuntur adipisci, expedita impedit. Esse iusto necessitatibus reiciendis sint cum. Sit qui corrupti reiciendis perspiciatis excepturi? Enim labore suscipit consequatur quos ea Molestiae dolorum quaerat enim officiis excepturi? Corporis quos cumque et numquam adipisci quibusdam. Itaque
+            <a class="text-center" href="#">Click For More</a>
+          </p>
+          
+        </section>
+
+        <section id="blog">
+          <h2>From Our Blog</h2>
+
+          <article class="article">
+            <h3>Article One</h3>
+            <p>
+              Amet sit incidunt fuga minus laudantium? Dolores delectus reprehenderit labore suscipit exercitationem Sapiente repellendus nemo earum tenetur similique nam architecto! Repellat eum deleniti delectus voluptate rem? Laudantium et quisquam totam libero cumque sed Itaque!
+            </p>
+          </article>
+
+          <article class="article">
+            <h3>Article Two</h3>
+            <p>
+              Elit consequuntur molestiae laudantium minus placeat Iusto ab architecto cumque doloribus autem! Natus qui voluptates ad vel aliquid itaque quod quia unde Quos libero accusantium sint libero error Temporibus velit sunt pariatur soluta velit quae, reprehenderit Dolorum minus aliquam exercitationem iure odio ea.
+            </p>
+          </article>
+
+        </section>
+      </main>
+
+      <aside id="sidebar" class="card">
+        <h3>Navigation</h3>
+        <nav>
+          <ul id="main-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <hr>
+          <h3>Contact Us</h3>
+          <ul>
+            <li><strong>Address:</strong> 50 Main st, Boston</li>
+            <li><strong>Phone:</strong>(555) 555 555</li>
+            <li><strong>Email:</strong>some@mail.com</li>
+          </ul>
+        </nav>
+      </aside>
+
+      <div class="clr"></div>
+      <footer id="footer">
+        <p class="text-center">Copyright &copy; My Website 2020</p>
+      </footer>
+    </body>
+  </head>
+</html>
