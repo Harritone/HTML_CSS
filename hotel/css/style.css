@@ -162,14 +162,6 @@ p {
   margin-bottom: 10px;
 }
 
-/* main-footer */
-#main-footer {
-  text-align: center;
-  background-color: #444;
-  color: #fff;
-  padding: 20px;
-}
-
 /* about */
 
 #about-info .info-right {
@@ -215,4 +207,38 @@ p {
 }
 .testimonial p {
   margin: 10px 0;
+}
+
+/* contact */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+  height: 30px;
+  padding-left: 15px;
+  outline: none;
+}
+#contact-form textarea {
+  height: 300px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+  border: 1px solid #f7c08a;
+}
+
+/* main-footer */
+#main-footer {
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
 }
