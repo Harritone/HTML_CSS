@@ -1,0 +1,86 @@
+#navbar {
+  text-align: center;
+}
+
+#navbar .logo {
+  float: none;
+}
+#navbar ul, #navbar ul li {
+  float: none;
+}
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: 1px solid #444;
+}
+#navbar ul li:last-child a {
+  border: none;
+}
+
+#showcase .showcase-content{
+  padding-top: 50px;
+}
+#showcase h1 {
+  font-size: 25px;
+}
+#showcase h1 span {
+  display: block;
+}
+
+#home-info {
+  height: 100%;
+}
+
+#home-info .info-img {
+  display: none;
+}
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* about */
+@media only screen and (max-width: 550px) {
+  #about-info .info-left .l-heading  {
+    padding-bottom: 0;
+  }
+  #about-info .info-left .l-heading span {
+    display: block;
+    padding-bottom: 10px;
+  }
+}
+#about-info .info-right {
+  display: none;
+}
+#about-info .info-left {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+#testimonials {
+  height: 100%;
+}
+.testimonial img {
+  transform: translateY(10px)
+}
+@media only screen and (max-width: 550px) {
+  #testimonials {
+    height: 100%;
+  }
+}
+
+/* contact */
+#contact-form h1, #contact-form p {
+  text-align: center;
+}
+#contact-info .box {
+  padding: 20px 0;
+  border-bottom: 1px solid #444;
+}
+#contact-info .box:last-child{
+  border: none;
+}
