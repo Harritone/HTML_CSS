@@ -24,6 +24,10 @@ p {
   color: #93cb52;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -52,8 +56,19 @@ p {
 }
 .container {
   max-width: 1100px;
+  margin: auto;
   padding: 0 2rem;
   overflow: hidden;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-1 {
+  padding: 3rem 0;
 }
 
 /* navbar */
@@ -94,17 +109,36 @@ p {
 }
 
 #showcase .showcase-content {
-  display: flex;
   text-align: center;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 100%;
   padding: 0 2rem;
   /* overlay */
   position: absolute;
   top: 60px;;
   left: 0;
+  right: 0;
+  bottom: 0;
   background-color: rgba(0,0,0,.4);
+}
+
+
+/* What we do section */
+#what .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item {
+  flex: 1;
+  padding: 1rem;
+}
+#what .items .item i {
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
