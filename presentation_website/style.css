@@ -3,7 +3,7 @@
   --page-2-color: tan;
   --page-3-color: teal;
   --page-4-color: steelblue;
-  --animate-speed: 1s;
+  --animate-speed: 2s;
 }
 
 body {
@@ -62,4 +62,34 @@ body {
 .btn-dark:hover {
   background-color: #f4f4f4;
   color: #333;
+}
+
+/* Page aniation */
+
+#page-1 h1 {
+  transform: translateY(-1200px);
+  animation: heading var(--animate-speed) forwards ease-in;
+  color: var(--page-1-color);
+}
+
+@keyframes heading {
+  to {
+    transform: translateY(0);
+    color: #fff;
+  }
+}
+
+#page-1 p {
+  transform: translateX(-1800px);
+  animation: paragraph var(--animate-speed) forwards ease-in 1s;
+  color: var(--page-1-color);
+}
+
+/* Paragraph animation */
+
+@keyframes paragraph {
+  to {
+    transform: translateX(0);
+    color: #fff;
+  }
 }
