@@ -114,7 +114,7 @@ p {
   color: #fff !important;
 }
 .bg-secondary {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary) !important;
   color: #fff;
 }
 .bg-dark {
@@ -179,6 +179,10 @@ p {
 
 .page-container > *:first-child {
   grid-row: 1 / span 3;
+}
+
+.l-heading {
+  font-size: 3rem;
 }
 
 /* Navigation */
@@ -285,6 +289,18 @@ p {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 /* Footer */
