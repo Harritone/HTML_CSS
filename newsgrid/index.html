@@ -18,28 +18,29 @@
     <title>NewsGrid | Latest News</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__logo">
-          <img src="img/logo.png" alt="" />
+      <div class="navbar bg-light">
+        <div class="container">
+          <div class="header__logo">
+            <img src="img/logo.png" alt="" />
+          </div>
+          <div class="header__icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <ul class="header__navigation">
+            <li><a href="#" class="current">Home</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
         </div>
-        <div class="header__icons">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
-        <ul class="header__navigation">
-          <li><a href="#" class="current">Home</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
       </div>
 
       <div class="showcase">
         <div class="container">
           <div class="showcase__container">
             <div class="showcase__content">
-              <div class="category category__sports">sports</div>
+              <div class="category category--sports">sports</div>
               <h1 class="showcase__content--heading">Some sport article</h1>
               <p class="showcase__content--p">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
@@ -53,6 +54,110 @@
           </div>
         </div>
       </div>
-    </header>
+
+    <section class="articles">
+      <div class="container">
+        <h2 class="articles__heading">Editor picks</h2>
+        <div class="articles__container">
+          <div class="articles__card bg-light">
+            <img src="img/articles/ent1.jpg" alt="article" />
+            <div class="card__content">
+              <div class="category category--ent">Entertiment</div>
+              <a href="#"
+                ><h1 class="card__heading">Lorem ipsum dolor sit amet.</h1></a
+              >
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium debitis ab distinctio, veritatis sit necessitatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="articles__card bg-dark">
+            <div class="card__content">
+              <div class="category category--sports">sports</div>
+              <a href="#"
+                ><h3 class="card__heading--light">
+                  Lorem ipsum dolor sit amet.
+                </h3></a
+              >
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium debitis ab distinctio, veritatis sit necessitatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="articles__card bg-light">
+            <img src="img/articles/tech1.jpg" alt="" />
+            <div class="card__content">
+              <div class="category category--tech">Technology</div>
+              <a href="#"
+                ><h3 class="card__heading">Lorem ipsum dolor sit amet.</h3></a
+              >
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium debitis ab distinctio, veritatis sit necessitatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="articles__card bg-light">
+            <img src="img/articles/sports1.jpg" alt="" />
+            <div class="card__content">
+              <div class="category category--sports">sports</div>
+              <a href="#"
+                ><h3 class="card__heading">Lorem ipsum dolor sit amet.</h3></a
+              >
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium debitis ab distinctio, veritatis sit necessitatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="articles__card bg-light">
+            <img src="img/articles/tech2.jpg" alt="" />
+            <div class="card__content">
+              <div class="category category--tech">technology</div>
+              <a href="#"
+                ><h3 class="card__heading">Lorem ipsum dolor sit amet.</h3></a
+              >
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium debitis ab distinctio, veritatis sit necessitatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="articles__card bg-primary">
+            <div class="card__content">
+              <div class="category category--sports">sports</div>
+              <a href="#"
+                ><h3 class="card__heading">Lorem ipsum dolor sit amet.</h3></a
+              >
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium debitis ab distinctio, veritatis sit necessitatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="articles__card bg-light">
+            <img src="img/articles/ent2.jpg" alt="" />
+            <div class="card__content">
+              <div class="category category--ent">Entertiment</div>
+              <a href="#"
+                ><h3 class="card__heading">Lorem ipsum dolor sit amet.</h3></a
+              >
+              <p class="card__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium debitis ab distinctio, veritatis sit necessitatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
