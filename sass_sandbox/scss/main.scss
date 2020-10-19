@@ -1,5 +1,13 @@
-$color: red;
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background-color: $color;
+  background: $light-color;
+  color: $dark-color;
+  font-family: $font-stac;
+  line-height: 1.5;
 }
