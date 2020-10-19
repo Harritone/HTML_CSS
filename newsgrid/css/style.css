@@ -58,6 +58,53 @@ h6 {
   overflow: hidden;
 }
 
+.category {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.category-sports {
+  background: var(--color-sports);
+}
+.category-ent {
+  background: var(--color-ent);
+}
+.category-tech {
+  background: var(--color-tech);
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: var(--color-dark);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-light {
+  background-color: var(--color-light);
+}
+.btn-primary {
+  background-color: var(--color-primary);
+}
+.btn-secondary {
+  background-color: var(--color-secondary);
+}
+
 /* Navigation */
 
 #main-nav {
@@ -84,7 +131,7 @@ h6 {
 }
 
 #main-nav ul li a {
-  padding: .75rem;
+  padding: 0.75rem;
   font-weight: bold;
 }
 
@@ -104,5 +151,41 @@ h6 {
 
 #main-nav .social i {
   color: #777;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
+}
+
+/* Showcase */
+
+#showcase {
+  color: #fff;
+  background: #333;
+  padding: 2rem;
+  position: relative;
+}
+
+#showcase::before {
+  content: "";
+  background: url("../img/featured.jpg") no-repeat center center / cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+#showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#showcase .showcase-content {
+  z-index: 1;
+}
+
+#showcase .showcase-content p {
+  margin-bottom: 1rem;
 }
